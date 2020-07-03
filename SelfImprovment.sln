@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfImprovment.Core", "Self
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfImprovment.Persistence", "SelfImprovment.Persistence\SelfImprovment.Persistence.csproj", "{ED17E5CB-8232-44D7-AC85-442FE4EF2AD4}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SelfImprovment.Schema", "SelfImprovment.Schema\SelfImprovment.Schema.sqlproj", "{C9B91079-3A09-4C11-8315-08ACD6E172AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{ED17E5CB-8232-44D7-AC85-442FE4EF2AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED17E5CB-8232-44D7-AC85-442FE4EF2AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED17E5CB-8232-44D7-AC85-442FE4EF2AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B91079-3A09-4C11-8315-08ACD6E172AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B91079-3A09-4C11-8315-08ACD6E172AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B91079-3A09-4C11-8315-08ACD6E172AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C9B91079-3A09-4C11-8315-08ACD6E172AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B91079-3A09-4C11-8315-08ACD6E172AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B91079-3A09-4C11-8315-08ACD6E172AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
